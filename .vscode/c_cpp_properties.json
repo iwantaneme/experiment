@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/iwantaname/Prometheus/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/FastPlanner/bspline_opt/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/planner/drone_detect/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/planner/plan_manage/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/mockamap/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/FastPlanner/path_searching/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/FastPlanner/plan_env/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/**",
+        // "/home/iwantaname/Prometheus/Modules/control/include/**",
+        // "/home/iwantaname/Prometheus/Simulator/gazebo_simulator/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/global_planning/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/hybrid_astar/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/local_planner/include/**",
+        // "/home/iwantaname/Prometheus/Modules/mission/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/FastPlanner/plan_manage/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/Utils/pose_utils/include/**",
+        // "/home/iwantaname/Prometheus/Modules/motion_planning/RapidQuad/include/**",
+        // "/home/iwantaname/Prometheus/Modules/slam/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ground_station/include/**",
+        // "/home/iwantaname/Prometheus/Modules/swarm_control/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/swarm_planning/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ugv_control/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/so3_control/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        // "/home/iwantaname/Prometheus/Modules/planning/FastPlanner/traj_utils/include/**",
+        // "/home/iwantaname/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
