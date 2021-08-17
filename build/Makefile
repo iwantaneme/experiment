@@ -509,6 +509,84 @@ std_msgs_generate_messages_py/fast:
 	$(MAKE) $(MAKESILENT) -f plum_param_server/CMakeFiles/std_msgs_generate_messages_py.dir/build.make plum_param_server/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plum_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plum_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plum_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named test01_pub_twist
+
+# Build rule for target.
+test01_pub_twist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test01_pub_twist
+.PHONY : test01_pub_twist
+
+# fast build rule for target.
+test01_pub_twist/fast:
+	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/test01_pub_twist.dir/build.make plum_test/CMakeFiles/test01_pub_twist.dir/build
+.PHONY : test01_pub_twist/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plum_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -525,6 +603,11 @@ help:
 	@echo "... clean_test_results"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_lisp"
@@ -548,6 +631,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... test01_pub_twist"
 .PHONY : help
 
 

@@ -1,2 +1,2 @@
-plum_param_server
+plum_param_server:plum_test
 -DCATKIN_DEVEL_PREFIX=/home/iwantaname/experiment/devel -DCMAKE_INSTALL_PREFIX=/home/iwantaname/experiment/install -G Unix Makefiles
