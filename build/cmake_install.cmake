@@ -138,6 +138,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/iwantaname/experiment/build/gtest/cmake_install.cmake")
   include("/home/iwantaname/experiment/build/plum_param_server/cmake_install.cmake")
   include("/home/iwantaname/experiment/build/plum_test/cmake_install.cmake")
+  include("/home/iwantaname/experiment/build/urdf01_rviz/cmake_install.cmake")
 
 endif()
 

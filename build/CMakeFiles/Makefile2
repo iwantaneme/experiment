@@ -66,12 +66,14 @@ CMAKE_BINARY_DIR = /home/iwantaname/experiment/build
 all: gtest/all
 all: plum_param_server/all
 all: plum_test/all
+all: urdf01_rviz/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: plum_param_server/preinstall
 preinstall: plum_test/preinstall
+preinstall: urdf01_rviz/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -83,6 +85,7 @@ clean: CMakeFiles/doxygen.dir/clean
 clean: gtest/clean
 clean: plum_param_server/clean
 clean: plum_test/clean
+clean: urdf01_rviz/clean
 .PHONY : clean
 
 #=============================================================================
@@ -184,6 +187,21 @@ plum_test/clean: plum_test/CMakeFiles/test01_pub_twist.dir/clean
 plum_test/clean: plum_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 plum_test/clean: plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 .PHONY : plum_test/clean
+
+#=============================================================================
+# Directory level rules for directory urdf01_rviz
+
+# Recursive "all" directory target.
+urdf01_rviz/all: urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all
+.PHONY : urdf01_rviz/all
+
+# Recursive "preinstall" directory target.
+urdf01_rviz/preinstall:
+.PHONY : urdf01_rviz/preinstall
+
+# Recursive "clean" directory target.
+urdf01_rviz/clean: urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
+.PHONY : urdf01_rviz/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tests.dir
@@ -1035,6 +1053,32 @@ geometry_msgs_generate_messages_py: plum_test/CMakeFiles/geometry_msgs_generate_
 plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 	$(MAKE) $(MAKESILENT) -f plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 .PHONY : plum_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir
+
+# All Build rule for target.
+urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all:
+	$(MAKE) $(MAKESILENT) -f urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build.make urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/depend
+	$(MAKE) $(MAKESILENT) -f urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build.make urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iwantaname/experiment/build/CMakeFiles --progress-num= "Built target urdf01_rviz_xacro_generated_to_devel_space_"
+.PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all
+
+# Build rule for subdir invocation for target.
+urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iwantaname/experiment/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iwantaname/experiment/build/CMakeFiles 0
+.PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/rule
+
+# Convenience name for target.
+urdf01_rviz_xacro_generated_to_devel_space_: urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/rule
+.PHONY : urdf01_rviz_xacro_generated_to_devel_space_
+
+# clean rule for target.
+urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean:
+	$(MAKE) $(MAKESILENT) -f urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build.make urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
+.PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

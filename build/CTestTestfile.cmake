@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("plum_param_server")
 subdirs("plum_test")
+subdirs("urdf01_rviz")

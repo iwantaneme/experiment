@@ -1,2 +1,2 @@
-plum_param_server:plum_test
+plum_param_server:plum_test:urdf01_rviz
 -DCATKIN_DEVEL_PREFIX=/home/iwantaname/experiment/devel -DCMAKE_INSTALL_PREFIX=/home/iwantaname/experiment/install -G Unix Makefiles
